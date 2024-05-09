@@ -1,0 +1,9 @@
+variable "dashboard" {
+  type = any
+}
+
+
+
+
+
+
