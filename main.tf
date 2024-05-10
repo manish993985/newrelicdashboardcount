@@ -78,7 +78,7 @@ resource "newrelic_one_dashboard" "exampledashboard" {
       height = var.dashboard[count.index].height5
 
       nrql_query {
-        query      =  var.dashboard[count.index].query4
+        query      =  var.dashboard[count.index].query5
       }
     }
 
@@ -90,7 +90,7 @@ resource "newrelic_one_dashboard" "exampledashboard" {
       height = var.dashboard[count.index].height6
 
       nrql_query {
-         query      =  var.dashboard[count.index].query4
+         query      =  var.dashboard[count.index].query6
       }
     }
   }
